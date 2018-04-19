@@ -1,0 +1,344 @@
+@font-face{
+    font-family: khmer;
+    src: url(../font/KhmerUI.ttf);
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+    font-family: impact;
+    src: url(../font/ImpactRegular.ttf);
+    font-weight: normal;
+	font-style: normal;
+}
+/* .blogtamsuvideo{
+    overflow: hidden;
+} */
+
+.bwh-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1005px;
+    margin: auto;
+    height: 57px;
+}
+.bwht-wrap{
+    display: flex;
+    height: 28px;
+}
+.bwht-logo{
+    margin-left: 35px;
+}
+.bw-theme{
+    display: flex;
+    font-family: khmer;
+    text-transform: uppercase;
+    background: #000;
+}
+.bw-theme>div>a{
+    text-decoration: none;
+    margin:0 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color:#ffe155;
+}
+.bw-theme>div>a:hover{
+    color: #ffffff;
+}
+.bw-social{
+    display: flex;
+    border-bottom: 3px solid #000;
+}
+
+.bw-social>div{
+    margin: 0 15px;
+    color: #000;
+}
+.bwh-bottom{
+    background: #ffe155;
+}
+.bwhb-wrap{
+    height: 72px;
+    display: flex;
+}
+.bw-menu{
+    width: 1005px;
+    margin: auto;
+}
+.bwm-icon:hover>ul{
+    display: block;
+}
+.menudrop{
+    display: none;
+    position: absolute;
+    left: -15px;
+    bottom: -107px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+}
+
+.menudrop>li{
+    margin: 10px;
+}
+.bwm-icon{
+    margin-left: 35px;
+    position: relative;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+ul>li{
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    font-family: khmer;
+    text-transform: uppercase;
+}
+ul>li>a>div:hover{
+    background: #000;
+    color: #ffe155;
+    font-family: impact;
+}
+.bwm-trend{
+    font-family: impact;
+    background: #000;
+    color: #ffe155;
+    width: 90px;
+    text-align: center;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+    letter-spacing: 0.2px;
+}
+.iconbar{
+    height: 2px;
+    width: 40px;
+    background: #000000;
+    position: relative;
+    display: block
+}
+.iconbar::before:hover .menudrop{
+    display: block;
+}
+.iconbar::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 20px;
+    background: #000;
+    left: 0;
+    width: 40px;
+}
+.iconbar::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 10px;
+    background: #000;
+    left: 0;
+    width: 40px;
+}
+.bws-wrapper{
+    width: 1005px;
+    margin: auto;
+}
+.bw-top{
+    display: flex;
+}
+.bw-left{
+    width: 565px;
+    margin: 67px 157px 0 0;
+}
+.bw-right{
+    width: 284px;
+    text-align: center;
+    margin: 67px 0 0 0;
+}
+.bwl-highlight, .bwr-trending{
+    font-family: khmer;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline;
+}
+.bwr-trending>i::after ,.bwl-highlight>i::after {
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 100%;
+    background: #ffe155;
+    bottom: 2px;
+    left: 0;;
+    z-index: -1;
+}
+.bwlt-content{
+    font-family: khmer;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.bwl-dark{
+    display: flex;
+    background: #f2f2f2;
+    position: relative;
+    margin: 0 0 11px 0;
+}
+.bwl-light{
+    display: flex;
+    position: relative;
+    margin: 0 0 11px 0;
+}
+.bwld-time, .bwll-time{
+    position: absolute;
+    bottom: 10px;
+    right: 175px;
+    display: flex;
+    font-size: 14px;
+    font-family: khmer;
+
+}
+.bwld-content, .bwll-content{
+    font-family: khmer;
+    font-size: 26.27px;
+    text-transform: capitalize;
+}
+.bwld-content>p, .bwll-content>p{
+    margin: 0px 0 10px 15px;
+}
+.bwld-time>a, .bwll-time>a{
+    background: #ffe155;
+    text-decoration: none;
+    font-family: khmer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+
+}
+.bwl-bottom{
+    background: #ffe155;
+    margin: 20px 0 60px 0;
+    height: 312px;
+}
+.bwl-bottom>div{
+    font-size: 25px;
+    text-transform: inherit;
+    text-align: center;
+    font-family: khmer;
+    margin: 10px 0 20px 0;
+    padding: 10px 0;
+
+}
+.bwl-bottom>li{
+    font-family: khmer;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0 15px 0;
+    padding: 5px 0;
+}
+.bw-content{
+    text-align: left;
+    font-family: khmer;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.bw-img{
+    margin-bottom: 5px;
+}
+.bw-img>a>img{
+    max-width: 100%;
+}
+.bwr-toppost{
+    background: #ffe155;
+    padding: 32px 4px 0 4px;
+    border-radius: 7px;
+}
+
+.bwr-toppost>h4{
+    margin: 0;
+    padding: 5px;
+    font-family: khmer;
+    font-size: 25px;
+}
+.bwv-video{
+    font-family: khmer;
+    font-size: 50px;
+    position: relative;
+    display: inline;
+}
+.bw-video{
+    margin-bottom: 42px;
+}
+.bwv-video::after{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 100%;
+    background: #ffe155;
+    bottom: 10px;
+    left: 0;
+    z-index: -1;
+}
+.bwv-top{
+    display: flex;
+    font-family: khmer;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.bwvt-content{
+    margin: 0 0 0 20px;
+}
+.bwvt-content>p{
+    margin: 0;
+}
+.bwv-wrap{
+    display: flex;
+}
+.bi-content{
+    font-family: khmer;
+    font-size: 22.96px;
+}
+.bw-wrap-bottom{
+    display: flex;
+}
+.bwb-left{
+    width: 565px;
+    margin: 0 157px 0 0;
+}
+.bwb-right{
+    width: 284px;
+    text-align: center;
+}
+.bl-funny{
+    font-family: khmer;
+    font-size: 30px;
+    position: relative;
+    display: inline;
+}
+.bl-funny::after{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 100%;
+    background: #ffe155;
+    bottom: 5px;
+    left: 0;
+    z-index: -1;
+}
+.dontmiss{
+    margin-top: 22px;
+}
+.footer-wrap{
+    background: #ffe155;
+    width: 100%;
+    height: 100px;
+}

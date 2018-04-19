@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css">
+    <link rel="stylesheet" href="style/stylex.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.esm.bundle.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 300px;
+            margin: 20px auto;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .append-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .append-buttons a {
+            display: inline-block;
+            border: 1px solid #007aff;
+            color: #007aff;
+            text-decoration: none;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin: 0 10px;
+            font-size: 13px;
+        }
+
+    </style>
+    <style>
+        .addclick-left{
+            padding-right: 250px;
+        }
+        .addclick-right{
+           width: 250px!important;
+        }
+        .hide{
+            display: none;
+        }
+        .show{
+            display: block;
+        }
+        .pos-button-left{
+            margin-left: 150px;
+            transform: rotate(0deg)!important;
+            -moz-transform: rotate(0deg)!important;
+
+        }
+        .pos-button-right{
+
+            transform: rotate(180deg)!important;
+            -moz-transform: rotate(0deg)!important;
+        }
+        .remove-pad{
+            padding: 15px 0 0 25px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+<div class="feedy-wrap">
+    <header>
+        <div class="fw-header">
+            <div class="fwh-logo">
+                <a href="#"><img src="img/Untitled-1.png" alt=""></a>
+            </div>
+            <div class="fwh-menu">
+                <div class="fwhm-searchbar">
+                    <input placeholder="Nhập thông tin tìm kiếm..." type="text">
+                    <button>
+
+                    </button>
+                </div>
+                <ul class="fwhm-menubar">
+                    <li class="fwhm-new">
+                        <a href="#">Mới nhất</a>
+                    </li>
+                    <li class="fwhm-community">
+                        <a href="#">Cộng đồng</a>
+                        <ul class="fwhmc-menu">
+                            <li>
+                                <a href="#">Cộng đồng1</a>
+                            </li>
+                            <li>
+                                <a href="#">Cộng đồng2</a>
+                            </li>
+                            <li>
+                                <a href="#">Cộng đồng3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="fwhm-res">
+                        <a href="#">Nhà hàng</a>
+                    </li>
+                    <li class="fwhm-blog">
+                        <a href="#">Blogs</a>
+                    </li>
+                    <li class="fwhm-feedytv">
+                        <a href="#">Feedy Tv</a>
+                    </li>
+                    <li class="fwhm-pro">
+                        <a href="#">Chuyên gia</a>
+                    </li>
+                    <li class="fwhm-event">
+                        <a href="#">Sự kiện</a>
+                    </li>
+                </ul>
+                <div class="fwhm-receipe">
+                    <a href="#">Tạo công thức</a>
+                    <ul class="fwhmr-menu">
+                        <li>
+                            <a href="#">Công thức 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Công thức 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Công thức 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fwhm-noti">
+                    <a class="fwhmn-ring" href="#"><img src="img/bg1.png" alt=""><span>3</span></a>
+                    <a class="fwhmn-sms" href="#"><img src="img/bg2.png" alt=""><span>3</span></a>
+                </div>
+                <div class="fwhm-user">
+                    <img src="img/bg3.png" alt="">
+                    <label>Băng Chi Phạm</label>
+                    <p>Thìa sứ: <span class="fwhmu-cost">300</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="fw-section">
+            <div class="fws-left">
+                <div class="fwsl-menu">
+                    <h6 class="fwslm-name hide">Menu</h6>
+                    <button class="fwslm-click">
+                        <i class="fa fa-angle-left"></i>
+                    </button>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#"><span><img src="img/icon1.png" alt=""></span>Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon2.png" alt=""></span>Danh sách đi chợ</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon3.png" alt=""></span>Đã lưu</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon4.png" alt=""></span>Cửa hàng</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon5.png" alt=""></span>Xem offline</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon6.png" alt=""></span>Điểm thưởng</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon7.png" alt=""></span>Mời bạn bè & chia sẻ mã</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon8.png" alt=""></span>Hỗ trợ trực tuyến</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon9.png" alt=""></span>Cài đặt</a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="img/icon10.png" alt=""></span>Đăng xuất</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: block;">
+                <div class="mCSB_draggerContainer">
+                    <div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; height: 434px; top: 0px; display: block; max-height: 523.295px;">
+                        <div class="mCSB_dragger_bar" style="line-height: 50px;">
+                        </div>
+                    </div>
+                    <div class="mCSB_draggerRail">
+                    </div>
+                </div>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/slide1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide1.png" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="fws-right">
+                <div class="fwsrc-wrap">
+                    <div class="fwsr-chatbox">
+
+                        <button class="fwsrc-click">
+                            <i class="fa fa-angle-left"></i>
+                        </button>
+                        <h6 class="fwsrc-setting hide">
+                            <a href="#">Cài đặt</a>
+                        </h6>
+                    </div>
+                    <ul class="fwsr-member add-pad">
+                        <li>
+                            <a href="#">
+                                <div class="fr-img">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="fr-content">
+                                <span class="frc-name">
+                                    Linh Chi
+                                </span>
+                                    <span class="frc-stt">
+                                    online
+                                </span>
+                                </div>
+                            </a>
+                            <div class="three-btn">
+                                <a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="fw-footer">
+
+        </div>
+    </footer>
+</div>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<script>
+
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    $(function () {
+        $(".fwslm-click").click(function () {
+            $('.fwslm-click').css({'transform': 'rotage(180deg)'});
+            $('.fwh-logo').toggleClass('addclick-left');
+            $('.fws-left').toggleClass('addclick-left');
+            if($('.fwslm-name').hasClass('hide')){
+                $(".fwslm-name").addClass("show").removeClass('hide');
+                $(this).addClass("pos-button-left");
+            }
+            else if($('.fwslm-name').hasClass('show')){
+                $(".fwslm-name").addClass("hide").removeClass('show');
+                $(this).removeClass("pos-button-left");
+            }
+
+        });
+        $(".fwsrc-click").click(function () {
+            $('.fwsrc-click').css({'transform': 'rotage(180deg)'});
+            $('.fws-right').toggleClass('addclick-right');
+            if($('.fwsrc-setting').hasClass('hide')){
+                $(".fwsrc-setting").addClass("show").removeClass('hide');
+                $(this).addClass("pos-button-right");
+            }
+            else if($('.fwsrc-setting').hasClass('show')){
+                $(".fwsrc-setting").addClass("hide").removeClass('show');
+                $(this).removeClass("pos-button-right");
+            }
+            if ($('.fwsr-member').hasClass('add-pad')){
+                $('.fwsr-member').addClass('remove-pad').removeClass('add-pad');
+            }
+            else if($('.fwsr-member').hasClass('remove-pad')){
+                $('.fwsr-member').addClass('add-pad').removeClass('remove-pad');
+            }
+        });
+    })
+</script>
+</body>
+</html>

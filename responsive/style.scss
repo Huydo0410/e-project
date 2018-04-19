@@ -1,0 +1,59 @@
+@media only screen and (min-width: 320px) and (max-width: 374px){
+  
+}
+.b-wrap {
+  width: 900px;
+  .bw-left {
+    width: 70%;
+    margin: 10px 30px;
+    float: left;
+    .bwl-line1 {
+      height: 100px;
+      width: 100%;
+      background: #ccc;
+    }
+
+    .bwl-line2 {
+      height: 100px;
+      width: 100%;
+      background: #ccc;
+    }
+
+    .bwl-line3 {
+      height: 100px;
+      width: 100%;
+      background: #ccc;
+    }
+
+    .bwl-line4 {
+      height: 100px;
+      width: 100%;
+      background: #ccc;
+    }
+  }
+
+  .bw-right {
+    width: 30%;
+    margin: 10px 30px;
+    float: right;
+    .bwr-line1 {
+      height: 100px;
+      width: 100%;
+    }
+
+    .bwr-line2 {
+      height: 100px;
+      width: 100%;
+    }
+
+    .bwr-line3 {
+      height: 100px;
+      width: 100%;
+    }
+
+    .bwr-line4 {
+      height: 100px;
+      width: 100%;
+    }
+  }
+}

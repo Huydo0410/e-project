@@ -1,0 +1,40 @@
+.b-wrap {
+  width: 900px; }
+  .b-wrap .bw-left {
+    width: 70%;
+    margin: 10px 30px;
+    float: left; }
+    .b-wrap .bw-left .bwl-line1 {
+      height: 100px;
+      width: 100%;
+      background: #ccc; }
+    .b-wrap .bw-left .bwl-line2 {
+      height: 100px;
+      width: 100%;
+      background: #ccc; }
+    .b-wrap .bw-left .bwl-line3 {
+      height: 100px;
+      width: 100%;
+      background: #ccc; }
+    .b-wrap .bw-left .bwl-line4 {
+      height: 100px;
+      width: 100%;
+      background: #ccc; }
+  .b-wrap .bw-right {
+    width: 30%;
+    margin: 10px 30px;
+    float: right; }
+    .b-wrap .bw-right .bwr-line1 {
+      height: 100px;
+      width: 100%; }
+    .b-wrap .bw-right .bwr-line2 {
+      height: 100px;
+      width: 100%; }
+    .b-wrap .bw-right .bwr-line3 {
+      height: 100px;
+      width: 100%; }
+    .b-wrap .bw-right .bwr-line4 {
+      height: 100px;
+      width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

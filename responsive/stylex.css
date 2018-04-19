@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.b-wrap{
+    width: 100%;
+        height: 100vh;
+}
+.bw-left{
+    width: 60%;
+    margin: 10px 30px;
+    float: left;
+}
+.bw-right{
+    width: 30%;
+    margin: 10px 30px;
+    float: right;
+}
+.bwl-line1{
+	width: 100%;
+	height: 100px;
+	background: #ccc;
+	margin:10px 0;
+}
+.bwr-line1{
+	width: 100%;
+	height: 100px;
+	background: #ccc;
+	margin:10px 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 374px){
+	.bw-left{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.bw-right{
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px){
+	.bw-left{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.bw-right{
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px){
+	.bw-left{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.bw-right{
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.bw-left{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.bw-right{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.bwl-line1{
+		height: 150px;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+	.bw-left{
+		width: 60%;
+		margin: 10px 0;
+	}
+	.bw-right{
+		width: 30%;
+		margin: 10px 0;
+	}
+}
+span{
+	    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 1px;
+}

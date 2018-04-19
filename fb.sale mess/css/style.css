@@ -1,0 +1,86 @@
+
+@keyframes timeline {
+    0%{
+        background-position: -350px 0;
+    }
+    100%{
+        background-position: 400px 0;
+    }
+}
+.box-thumbnail{
+    width: 50px;
+    height: 50px;
+    background: #f6f7f9;
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+}
+.box-thumbnail-2{
+    width: 35px;
+    height: 35px;
+    background: #f6f7f9;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+.box-line1{
+    width: 150px;
+    height: 6px;
+    background: #f6f7f9;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.box-line2{
+    width: 100px;
+    height: 6px;
+    position: absolute;
+    left: 70px;
+    bottom: 30px;
+    background: #f6f7f9;
+}
+.box-line3{
+    width: 20px;
+    height: 6px;
+    background: #f6f7f9;
+    position: absolute;
+    left: 70px;
+    bottom: 10px;
+}
+.box-line4{
+    width: 20px;
+    height: 6px;
+    background: #f6f7f9;
+    position: absolute;
+    left: 95px;
+    bottom: 10px;
+}
+
+[class*="box-line"]{
+    background: linear-gradient(to right, #ebedf0 10%, #dddddd 20%, #ebedf0 30%);
+    background-size: 250px auto;
+    background-position: 0 auto;
+    animation-name: timeline;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box-thumbnail, .box-thumbnail-2{
+    background: linear-gradient(to right, #ebedf0 10%, #dddddd 20%, #ebedf0 30%);
+    background-size: 250px auto;
+    background-position: 0 auto;
+    animation-name: timeline;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.fix-top{
+    position: relative;
+}
+.box-line6{
+    position: absolute;
+    left: 60px;
+    bottom: 5px;
+    width: 80px;
+    height: 6px;
+}

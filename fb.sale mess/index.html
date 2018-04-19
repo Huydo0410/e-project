@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FChat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fbmess.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.css" />
+    <link rel="stylesheet" type="text/css" href="test.scss">
+</head>
+
+<body>
+    <div class="wrap-content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img  src="img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <img src="img/hoithoai.png" alt="">
+                            <div class="content">hội thoại</div>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="img/baiviet.png" alt="">
+                            <div class="content">bài viết</div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="img/caidat.png" alt="">
+                            <div class="content">cài đặt</div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="img/quanli.png" alt="">
+                            <div class="content">quản lí</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <img src="img/thongke.png" alt="">
+                            <div class="content">thống kê</div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="img/phantich.png" alt="">
+                            <div class="content">phân tích</div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="img/hotro.png" alt="">
+                            <div class="content">hỗ trợ</div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="user-manager">
+                    <div style="display: flex;">
+                        <div class="manager-img">
+                            <img src="img/ava.png" alt="">
+                        </div>
+                        <div class="manager-name">
+                            <div class="name">
+                                <a href="#">
+                                    <p>Bống Shop</p>
+                                </a>
+                            </div>
+                            <div class="manager-setting">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Quản lý
+                                </a>
+                                <div class="dropdown-menu show-drop">
+                                    <a class="dropdown-item" href="#">chọn page</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">đến trang cài đặt</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">đến trang bài viết</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">đến trang hội thoại</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">đến facebook cá nhân</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">gia hạn & khuyến mại</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">đăng xuất</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download">
+                        <img src="img/download.png" alt="">
+                    </div>
+                    <div class="help">
+                        <img src="img/help.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-left">
+                <div class="row">
+                    <div class="r-left">
+                        <div class="rl-search">
+                            <a href="#">
+                                <img src="img/search.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-card">
+                            <a href="#">
+                                <img src="img/card.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-eyes">
+                            <a href="#">
+                                <img src="img/eyes.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-cmt">
+                            <a href="#">
+                                <img src="img/comment.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-call">
+                            <a href="#">
+                                <img src="img/call.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-tag">
+                            <a href="#">
+                                <img src="img/tag.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-carlendar">
+                            <a href="#">
+                                <img src="img/carlendar.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-block">
+                            <a href="#">
+                                <img src="img/block.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-task">
+                            <a href="#">
+                                <img src="img/task.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-sort">
+                            <a href="#">
+                                <img src="img/sort.png" alt="">
+                            </a>
+                        </div>
+                        <div class="rl-sortblock">
+                            <a href="#">
+                                <img src="img/sortblock.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="r-right">
+                        <div class="row rr-top">
+                            <div class="rrt-left">
+                                <a class="rl-bg" href="#">
+                                    Tất cả
+                                    <span>43</span>
+                                </a>
+                            </div>
+                            <div class="rrt-mid">
+                                <a class="rm-bg rm-sms" href="#">
+                                    Tin nhắn
+                                </a>
+                            </div>  `
+                            <div class="rrt-right">
+                                <a class="rr-bg" href="#">
+                                    Bình luận
+                                </a>
+                            </div>
+                        </div>
+                        <hr class="highlight">
+                        <div class="rr-bot">
+                            <div class="rrb-item rrb-item-active ">
+                                <div class="box-thumbnail"></div>
+                                <div class="box-line1">
+
+                                </div>
+                                <div class="box-line2"></div>
+                                <div  class=" box-line3"></div>
+                                <div class=" box-line4"></div>
+                                <div class=" box-line5">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item ">
+                                <div class="box-thumbnail"></div>
+                                <div class="box-line1">
+
+                                </div>
+                                <div class="box-line2"></div>
+                                <div  class=" box-line3"></div>
+                                <div class=" box-line4"></div>
+                                <div class=" box-line5">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item rrb-item-active ">
+                                <div class="box-thumbnail"></div>
+                                <div class="box-line1">
+
+                                </div>
+                                <div class="box-line2"></div>
+                                <div  class=" box-line3"></div>
+                                <div class=" box-line4"></div>
+                                <div class=" box-line5">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item rrb-item-active ">
+                                <div class="box-thumbnail"></div>
+                                <div class="box-line1">
+
+                                </div>
+                                <div class="box-line2"></div>
+                                <div  class=" box-line3"></div>
+                                <div class=" box-line4"></div>
+                                <div class=" box-line5">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item rrb-item-active ">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line1">
+
+                            </div>
+                            <div class="box-line2"></div>
+                            <div  class=" box-line3"></div>
+                            <div class=" box-line4"></div>
+                            <div class=" box-line5">
+                            </div>
+                        </div>
+                            <hr class="highlight">
+                            <div class="rrb-item rrb-item-active ">
+                                <div class="box-thumbnail"></div>
+                                <div class="box-line1">
+
+                                </div>
+                                <div class="box-line2"></div>
+                                <div  class=" box-line3"></div>
+                                <div class=" box-line4"></div>
+                                <div class=" box-line5">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item">
+                                <img class="rrbi-avatar" src="img/ava2.png" alt="">
+                                <label>
+                                    Trương Minh Phúc
+                                </label>
+                                <p>Pe Po</p>
+                                <span class="color-red">red</span>
+                                <span class="color-blue">blue</span>
+                                <div class="r-date">
+                                    27/12
+                                    <br>
+                                    <img src="img/binhluan.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item">
+                                <img class="rrbi-avatar" src="img/ava2.png" alt="">
+                                <label>
+                                    Trương Minh Phúc
+                                </label>
+                                <p>Pe Po</p>
+                                <span class="color-red">red</span>
+                                <span class="color-blue">blue</span>
+                                <div class="r-date">
+                                    27/12
+                                    <br>
+                                    <img src="img/binhluan.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item">
+                                <img class="rrbi-avatar" src="img/ava2.png" alt="">
+                                <label>
+                                    Trương Minh Phúc
+                                </label>
+                                <p>Pe Po</p>
+                                <span class="color-red">red</span>
+                                <span class="color-blue">blue</span>
+                                <div class="r-date">
+                                    27/12
+                                    <br>
+                                    <img src="img/binhluan.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item">
+                                <img class="rrbi-avatar" src="img/ava2.png" alt="">
+                                <label>
+                                    Trương Minh Phúc
+                                </label>
+                                <p>Pe Po</p>
+                                <span class="color-red">red</span>
+                                <span class="color-blue">blue</span>
+                                <div class="r-date">
+                                    27/12
+                                    <br>
+                                    <img src="img/binhluan.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item">
+                                <img class="rrbi-avatar" src="img/ava2.png" alt="">
+                                <label>
+                                    Trương Minh Phúc
+                                </label>
+                                <p>Pe Po</p>
+                                <span class="color-red">red</span>
+                                <span class="color-blue">blue</span>
+                                <div class="r-date">
+                                    27/12
+                                    <br>
+                                    <img src="img/binhluan.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item">
+                                <img class="rrbi-avatar" src="img/ava2.png" alt="">
+                                <label>
+
+                                </label>
+                                <p>Pe Po</p>
+                                <span class="color-red">red</span>
+                                <span class="color-blue">blue</span>
+                                <div class="r-date">
+                                    27/12
+                                    <br>
+                                    <img src="img/binhluan.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                            <div class="rrb-item">
+                                <img class="rrbi-avatar" src="img/ava2.png" alt="">
+                                <label>
+                                    Trương Minh Phúc
+                                </label>
+                                <p>Pe Po</p>
+                                <span class="color-red">red</span>
+                                <span class="color-blue">blue</span>
+                                <div class="r-date">
+                                    27/12
+                                    <br>
+                                    <img src="img/binhluan.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="highlight">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-mid">
+                <div class="row mid-col-top">
+                    <div class="fix-top">
+                        <div class=" box-thumbnail-2">
+                        </div>
+                        <div class="box-line1">
+                        </div>
+                        <div class="box-line6">
+
+                        </div>
+                    </div>
+                    <div class="ct-right">
+                        <a href="#">
+                            <img src="img/viewfb2.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/tag.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/block2.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/eyeshide.png" alt="">
+                        </a>
+                        <a id="refresh" href="#">
+                            <img src="img/refesh2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class=" mid-col-center">
+                    <div class="mcc-top">
+                        <b>26/12/2017 - 8:27</b>
+                    </div>
+                    <div class="mcc-center">
+                        <div class="mccc-left">
+                            <div class="mccc-name-left">
+                                <b>Trương Minh Phúc</b>
+                            </div>
+                            <div class="mccc-content-left">
+                                <div class="mcl-top">
+                                    số điện thoại của shop là 0988775544
+                                </div>
+                                <div class="mcl-bot">
+                                    <a href="#">
+                                        <img src="img/minieyes.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/trash.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/hand.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/miniemail.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mccc-right">
+                            <div class="mccc-mane-right">
+                                <b>Bống Shop</b>
+                            </div>
+                            <div class="mccc-content-right">
+                                <div class="mcr-top">
+                                    Nếu bạn đang bán hàng online, thì chắc hẳn bạn cũng nhận ra là những người comment vào bài post Facebook, hay bài chạy quảng cáo bạn phải trên 70% là những người quan tâm về sản phẩm hay dịch vụ bạn đang tiếp thị.
+                                </div>
+                                <div class="mcr-bot">
+                                    <a href="#">
+                                        <img src="img/eyelight.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/trashlight.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mcccr-img">
+                                <img src="img/tick-inside-circle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mid-col-bot">
+                    <div class="row">
+                        <div class="col-md-2 vipuser">
+                            <a href="#">Khách VIP</a>
+                        </div>
+                        <div class="col-md-2 newuser">
+                            <a href="#">Khách mới</a>
+                        </div>
+                        <div class="col-md-2 sale">
+                            <a href="#">Có khuyến mại</a>
+                        </div>
+                        <div class="col-md-2 unread">
+                            <a href="#">Hội thoại chưa...</a>
+                        </div>
+                        <div class="col-md-2 soldout">
+                            <a href="#">Chưa đi đơn</a>
+                        </div>
+                        <div class="col-md-2 other">
+                            <a href="#">Nhãn khác...</a>
+                        </div>
+                    </div>
+                    <div class="mcc-bottom">
+                        <div class="input-group mb-3">
+                            <textarea placeholder="write somethings" name="" id="form" cols="300" rows="1"></textarea>
+                            <div class="mbi-insert">
+                                <a href="#">
+                                    <img src="img/insert.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mbi-picture">
+                                <a href="#">
+                                    <img src="img/picture.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mbi-avairabletext">
+                                <a href="#">
+                                    <img src="img/avairabletext.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mbi-emoji">
+                                <a href="#">
+                                    <img src="img/emoji.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mbi-send">
+                                <a href="#">Gửi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="cr-top">
+                    <a class="crt-customer" href="#">Khách hàng</a>
+                    <a class="crt-build" href="#">Tạo đơn</a>
+                </div>
+                <div class="cr-mid">
+                    <div class="info-customer">
+                        <div class="customer-name">
+                            <p> Trương Minh Phúc</p>
+                            <a href="#">Xem Facebook cá nhân</a>
+                        </div>
+                        <img class="red-notice" src="img/chuy.png" alt="">
+                    </div>
+                    <hr style="margin: 15px 0; width:98%">
+                    <div class="more-info">
+                        <div class="mi-left">
+                            <p class="mil-name">Trương Minh Phúc</p>
+                            <p class="mil-email">Email khách hàng</p>
+                            <p class="mil-location">Tp Hà Nội
+                                <img class="mil-location-down" src="img/down.png" alt="">
+                            </p>
+                        </div>
+                        <div class="mi-right">
+                            <p class="mil-callnumber">0912667788</p>
+                            <p class="mil-address">Địa chỉ khách hàng</p>
+                            <p class="mil-location">Quận Hoàn Kiếm
+                                <img class="mil-location-down" src="img/down.png" alt="">
+                            </p>
+                        </div>
+                    </div>
+                    <p class="mil-type">Chọn loại khách hàng
+                        <img class="mil-location-down" src="img/down.png" alt="">
+                    </p>
+                    <div class="update">
+                        <a href="#">cập nhật</a>
+                    </div>
+                    <hr class="highlight">
+                    <div id="note">
+                        Ghi chú
+                        <i class="ion-android-add-circle"></i>
+                    </div>
+                    <textarea placeholder="viết ghi chú" name="" id="write-note" cols="300" rows="1"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+         new WOW().init();
+    </script>
+</body>
+
+</html>
