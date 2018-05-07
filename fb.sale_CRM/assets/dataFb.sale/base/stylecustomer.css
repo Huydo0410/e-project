@@ -145,7 +145,7 @@ label{
     font-size: 13px!important;
     padding: 5px 15px!important;
     background: #0084ff;
-    margin-left: 77%;
+    margin-left: 70%;
     margin-bottom: 8px;
 }
 #tpit-select-customer{
@@ -294,6 +294,9 @@ thead{
     padding-left: 8px!important;
     padding-right: 5px!important;
     /*width:40%;*/
+}
+.msc-add-product{
+    width: 41%!important;
 }
 .msc-cost{
     text-align: right;
