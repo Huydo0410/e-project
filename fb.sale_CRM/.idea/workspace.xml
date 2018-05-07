@@ -20,10 +20,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-968">
+            <state relative-caret-position="22">
               <caret line="2866" column="52" selection-start-line="2866" selection-start-column="52" selection-end-line="2866" selection-end-column="52" />
               <folding>
                 <element signature="n#button#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -83,13 +83,13 @@
       <file leaf-file-name="style.bundle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/style.bundle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706574">
+            <state relative-caret-position="22">
               <caret line="32117" column="36" selection-start-line="32117" selection-start-column="36" selection-end-line="32117" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylecustomer.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylecustomer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="769">
@@ -174,7 +174,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="17" />
     <option name="y" value="8" />
     <option name="width" value="1936" />
@@ -326,11 +326,12 @@
       <workItem from="1524013864815" duration="7668000" />
       <workItem from="1524038199253" duration="3551000" />
       <workItem from="1524099959981" duration="1882000" />
+      <workItem from="1524104410694" duration="2427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141385000" />
+    <option name="totallyTimeSpent" value="143812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,7 +343,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13593256" />
@@ -367,19 +368,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13593256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32982087" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -1286,14 +1287,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/style.bundle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706574">
+        <state relative-caret-position="22">
           <caret line="32117" column="36" selection-start-line="32117" selection-start-column="36" selection-end-line="32117" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="513" column="1" selection-start-line="513" selection-start-column="1" selection-end-line="513" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
+        <state relative-caret-position="22">
           <caret line="2866" column="52" selection-start-line="2866" selection-start-column="52" selection-end-line="2866" selection-end-column="52" />
           <folding>
             <element signature="n#button#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1346,13 +1354,6 @@
             <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="513" column="1" selection-start-line="513" selection-start-column="1" selection-end-line="513" selection-end-column="1" />
         </state>
       </provider>
     </entry>
