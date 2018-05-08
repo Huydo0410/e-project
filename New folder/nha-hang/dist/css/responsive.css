@@ -1,0 +1,493 @@
+/*Container responsive*/
+@media (min-width: 1025px) {
+    .container {
+        width: 1190px;
+    }
+
+    .container2 {
+        width: 1050px;
+        margin: 0 auto;
+    }
+
+    .fd-content-new .content-left {
+        width: 27%;
+        float: left;
+    }
+
+    .fd-content-new .main-content {
+        width: 46%;
+        float: left;
+    }
+
+    .fd-content-new .content-right {
+        width: 27%;
+        float: left;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1190px;
+    }
+
+    .container2 {
+        width: 1170px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 1519px) {
+    .container2 {
+        width: 1380px;
+        margin: 0 auto;
+    }
+}
+
+/*responsive menu 1920 > 1380px*/
+@media (max-width: 1900px) {
+    .menu-top .search input {
+        width: 300px;
+    }
+
+    .menu-top .nav-top li:first-child {
+        padding-left: 40px;
+
+    }
+
+    .menu-top.resize .search input {
+        width: 490px;
+    }
+}
+
+@media (max-width: 1650px) {
+    .menu-top .nav-top li {
+        padding: 0 15px;
+    }
+    .menu-top.resize .search input {
+        width: 350px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1560px) {
+    .menu-top .search input {
+        width: 200px;
+    }
+    .menu-top .nav-top li,.menu-top .button-creat-cook {
+        font-size: 14px;
+    }
+    .menu-top .nav-top li:first-child {
+        padding-left:20px;
+    }
+
+    .menu-top.resize .search input {
+        width: 300px;
+    }
+    .menu-top .notice-acc .info-acc {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+    .fd-videoMore .list-video-viewMore .content-video {
+        height: 110px;
+        width: 140px;
+    }
+    .fd-videoMore .list-video-viewMore .content-text a {
+        margin-bottom: 6px;
+        max-height: 76px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 1518px) {
+    .fd-title,
+    .recent-video .video-box,
+    .you-knowns .list-you-knows li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .you-knowns .list-you-knows li .btn-follow {
+        padding: 0 10px;
+        right: 20px;
+    }
+
+    .recent-video .video-box li .content-text a {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .monthly-day-wrap, .monthly-day-title-wrap {
+        width: 90%;
+    }
+
+    .news-feed .bottom-nfeed button.btn-save {
+        margin-right: 10px;
+    }
+
+    .news-feed .bottom-nfeed button.btn-cmt {
+        margin-left: 10px;
+    }
+
+    .cooking-recipe .list-recipe .content-text {
+        padding: 15px 0;
+    }
+
+    .fd-slider-video, .cooking-recipe, .users-recipe {
+        padding: 15px 40px;
+    }
+
+    .users-recipe ul li .content-user {
+        padding-left: 2px;
+        padding-right: 0;
+    }
+
+    .users-recipe ul li .content-user .info-user {
+        padding-left: 0;
+    }
+
+    .users-recipe ul li .content-btn button {
+        padding: 0 5px;
+    }
+
+    .recipe-right-content .users-recipe ul li .content-btn button {
+        padding: 0 3px;
+    }
+
+    .users-recipe ul li .content-btn .recipe-like {
+        padding-left: 0;
+    }
+
+    .users-recipe ul li .content-btn button.recipe-share {
+        padding-right: 0;
+    }
+
+    .fd-content-master .list-master li a .content-img .master-name {
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .fd-content-master .list-master li a .master-info {
+        padding: 0 15px;
+    }
+
+    .event-list ul li .content-event button.btn-join {
+        padding: 8px 10px;
+    }
+
+    .event-list ul li .content-event .content-text {
+        padding: 20px 15px;
+    }
+
+    .event-list ul li .content-event button {
+        padding-left: 4px;
+    }
+
+    .featured-event .event-content .content-text h1 {
+        margin: 15px 0 5px 0px;
+    }
+    .featured-event .event-content .content-text p.decs,.info-Restaurant p {
+        font-size: 16px;
+    }
+    .featured-event .event-content .content-text p.decs {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+    .fd-list-restaurant .list-Review  {
+        display: inline-block !important;
+        width: 100%;
+
+    }
+    .featured-event .event-content .content-text .time-join {
+        margin-top: 15px;
+    }
+
+    .featured-event .event-content .content-text .countdown ul li span {
+        width: 80px;
+        height: 65px;
+        font-size: 40px;
+    }
+
+    .featured-event .event-content .content-text .countdown ul li {
+        margin-right: 10px;
+    }
+
+    .featured-event .event-content .content-text .time-join .btn-join {
+        padding: 10px 20px;
+    }
+
+    .detail-event .users-recipe .content-recipe .content-text {
+        padding: 0 10px;
+    }
+
+    .intro-content {
+        padding: 20px;
+    }
+
+    .menu-profile .menu-right li {
+        padding: 0 18px;
+    }
+
+    .menu-profile .info-profile ul li {
+        padding: 0 15px;
+    }
+
+    .menu-top .notice-acc .all-notice > li {
+        padding: 0 10px;
+    }
+
+    .chat-popup .chat-popup-header {
+        padding: 10px;
+    }
+
+    .chat-popup .chat-popup-header .content-header-right {
+        right: 5px;
+    }
+
+    .chat-popup .list-chat {
+        height: 260px;
+    }
+
+    .perform-box .perform-content {
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .menu-top .notice-acc .info-acc {
+        padding-right: 15px;
+        padding-left: 5px;
+    }
+
+    .menu-top .notice-acc .all-notice {
+        padding-right: 0px;
+    }
+
+    .menu-top .nav-top li {
+        padding: 0 10px;
+    }
+
+}
+
+@media (max-width: 1379px) {
+    .recent-activity ul.list-ChuyenGia li .info-activity .nameCG a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .recent-activity ul.list-ChuyenGia li .info-activity .avatar {
+        height: 60px;
+        width: 60px;
+    }
+    .recent-activity ul.list-ChuyenGia li .info-activity .avatar img{
+        height: 60px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .recent-activity ul.list-ChuyenGia li .btTheodoi {
+        height: 30px;
+        width: 97px;
+        line-height: 30px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .recent-activity ul.list-ChuyenGia li .info-activity .nameCG {
+        margin-top: 0px;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+        height: 70px;
+        padding-left: 70px;
+         float: none;
+        z-index: 1;
+         width: auto;
+    }
+    .fd-videoMore .list-video-viewMore .content-video {
+        height: 112px;
+        width: 140px;
+    }
+    .fd-videoMore .list-video-viewMore .content-text a {
+        font-size: 14px;
+        margin-top: 10px;
+        transition: all 0.35s ease;
+        max-height: 85px;
+        line-height: 18px;
+    }
+    .fd-videoMore .list-video-viewMore .content-text a {
+        margin-top: 0px;
+    }
+    .list-newMV .info-activity {
+        max-width: 61%;
+    }
+    .fd-videoMore .list-video-viewMore .content-video .img-video {
+        height: 112px;
+    }
+
+    .fd-list-Cook .list-Cook li, .fd-list-Review .list-Review li, .fd-list-video .list-video-left li, .fd-list-newMV .list-newMV li {
+        margin-right: 16px;
+    }
+
+    .menu-top .button-creat-cook {
+        margin-top: 7px;
+    }
+
+    .fd-content-box {
+        padding-top: 52px;
+    }
+
+    .menu-top, .menu-top .search input, .menu-top .notice-acc .info-acc {
+        height: 52px;
+    }
+
+    .fd-wrapper .menu-left .fd-logo a {
+        padding: 6px 18px;
+    }
+
+    .menu-top .search .btn-search {
+        top: 10px;
+    }
+
+    .menu-top .nav-top li {
+        line-height: 52px;
+        font-size: 14px;
+    }
+    .menu-top .nav-top li:first-child {
+        padding-left: 10px;
+    }
+    .chat-box {
+        top: 52px;
+        height: calc(100vh - 52px);
+    }
+    .menu-top .button-creat-cook {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .menu-top .notice-acc .all-notice > li {
+        line-height: 52px;
+    }
+
+    .menu-top .search input {
+        height: 52px;
+        font-size: 15px;
+    }
+
+    .menu-top .search input {
+        width: 130px;
+        padding-left: 10px;
+        padding-right: 55px;
+    }
+
+    .menu-top .search .btn-search {
+        right: 8px;
+    }
+
+    .menu-top.resize .search input {
+        width: 220px;
+    }
+
+}
+
+@media (max-width: 1310px) {
+    .menu-top .nav-top li {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 1279px) {
+    .menu-top .search input {
+        width: 100px;
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+
+    .menu-top .nav-top li:first-child {
+        padding-left: 20px;
+    }
+
+    .menu-top.resize .search input {
+        width: 290px;
+    }
+
+    .menu-top .nav-top li {
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 1170px ) and (max-width: 1280px) {
+    .container2 {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .step-food li {
+        line-height: 60px;
+        height: 60px;
+    }
+
+    .step-food li a {
+        line-height: 60px;
+        height: 60px;
+        padding: 0px;
+    }
+
+    .step-food li.active:first-child:before {
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 300px solid #4367b2;
+        right: -30px;
+        display: none;
+    }
+
+    .step-food li.active:first-child:after {
+        border-top: 29.9999px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 30px solid #4367b2;
+        right: -30px;
+        top: -1px;
+    }
+
+    .step-food li:first-child:before {
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 30px solid #fff;
+        right: -30px;
+        top: -1px;
+
+    }
+
+    .step-food li:first-child:after {
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 30px solid #aaa;
+        position: absolute;
+        content: "";
+        right: -31px;
+        top: -1px;
+        z-index: 1;
+    }
+
+    .step-creat-recipe {
+        width: 32%;
+    }
+
+    .step-creat-recipe label {
+        font-size: 15px;
+    }
+
+    .step-creat-recipe:nth-child(4), .step-creat-recipe:nth-child(5) {
+        width: 49%;
+    }
+}
+
+.content-rewardPoints-left .tab-content {
+    display: inline-block;
+}
+
+.list-video-left,.list-Review,.list-Cook,.list-newMV {
+    display: inline-flex;
+}
