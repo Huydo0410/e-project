@@ -14,17 +14,16 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="fb.sale_CRM" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-968">
-              <caret line="2866" column="52" selection-start-line="2866" selection-start-column="52" selection-end-line="2866" selection-end-column="52" />
+            <state relative-caret-position="-3196">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
                 <element signature="n#button#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -83,16 +82,16 @@
       <file leaf-file-name="style.bundle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/style.bundle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706574">
+            <state relative-caret-position="545989">
               <caret line="32117" column="36" selection-start-line="32117" selection-start-column="36" selection-end-line="32117" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylecustomer.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylecustomer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
+            <state relative-caret-position="8721">
               <caret line="513" column="1" selection-start-line="513" selection-start-column="1" selection-end-line="513" selection-end-column="1" />
             </state>
           </provider>
@@ -101,7 +100,7 @@
       <file leaf-file-name="stylecustomer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
+            <state relative-caret-position="663">
               <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
@@ -174,7 +173,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="17" />
     <option name="y" value="8" />
     <option name="width" value="1936" />
@@ -193,24 +195,6 @@
               <item name="fb.sale_CRM" type="b2602c69:ProjectViewProjectNode" />
               <item name="fb.sale_CRM" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fb.sale_CRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fb.sale_CRM" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fb.sale_CRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fb.sale_CRM" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFb.sale" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fb.sale_CRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fb.sale_CRM" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFb.sale" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -221,7 +205,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../responsive" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../New folder" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -326,11 +310,15 @@
       <workItem from="1524013864815" duration="7668000" />
       <workItem from="1524038199253" duration="3551000" />
       <workItem from="1524099959981" duration="1882000" />
+      <workItem from="1525317464962" duration="2051000" />
+      <workItem from="1525396357175" duration="598000" />
+      <workItem from="1525484492033" duration="1891000" />
+      <workItem from="1525658379405" duration="1597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141385000" />
+    <option name="totallyTimeSpent" value="147522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,23 +330,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13593256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13541667" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32982087" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32982087" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
@@ -1279,22 +1266,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
+        <state relative-caret-position="663">
           <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/style.bundle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706574">
+        <state relative-caret-position="545989">
           <caret line="32117" column="36" selection-start-line="32117" selection-start-column="36" selection-end-line="32117" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8721">
+          <caret line="513" column="1" selection-start-line="513" selection-start-column="1" selection-end-line="513" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
-          <caret line="2866" column="52" selection-start-line="2866" selection-start-column="52" selection-end-line="2866" selection-end-column="52" />
+        <state relative-caret-position="-3196">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
             <element signature="n#button#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1346,13 +1340,6 @@
             <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dataFb.sale/base/stylecustomer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="513" column="1" selection-start-line="513" selection-start-column="1" selection-end-line="513" selection-end-column="1" />
         </state>
       </provider>
     </entry>
