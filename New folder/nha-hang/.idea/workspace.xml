@@ -17,8 +17,8 @@
       <file leaf-file-name="nhahang.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nhahang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="841" selection-end-line="950" selection-end-column="7" />
+            <state relative-caret-position="461">
+              <caret line="823" column="30" lean-forward="true" selection-start-line="823" selection-start-column="30" selection-end-line="823" selection-end-column="30" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="1_moinhat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HTML-feedy v3/1_moinhat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="1012">
               <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -117,14 +117,16 @@
       <updated>1525707008307</updated>
       <workItem from="1525707011945" duration="1745000" />
       <workItem from="1525796619908" duration="105000" />
+      <workItem from="1525799293823" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1850000" />
+    <option name="totallyTimeSpent" value="1854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0943098" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -155,6 +157,30 @@
     <entry file="file://$PROJECT_DIR$/nhahang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18502">
+          <caret line="841" selection-end-line="950" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTML-feedy v3/1_moinhat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15400">
+          <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nhahang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18502">
           <caret line="841" selection-start-line="841" selection-end-line="841" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -178,7 +204,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HTML-feedy v3/1_moinhat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="1012">
           <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -190,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nhahang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="841" selection-end-line="950" selection-end-column="7" />
+        <state relative-caret-position="461">
+          <caret line="823" column="30" lean-forward="true" selection-start-line="823" selection-start-column="30" selection-end-line="823" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
