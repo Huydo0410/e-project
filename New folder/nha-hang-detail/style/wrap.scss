@@ -1,6 +1,6 @@
 @import "left";
 @import "right";
-@import "reset";
+//@import "reset";
 .res-detail-wrap{
   max-width: 1170px;
   margin: 15px auto;
@@ -17,4 +17,14 @@
 }
 img{
   margin-bottom: 0!important;
+}
+button{
+  background: transparent;
+  border: 0;
+}
+input{
+  border: 0;
+  &:focus{
+    border: 0;
+  }
 }

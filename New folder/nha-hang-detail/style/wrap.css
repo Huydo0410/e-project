@@ -436,15 +436,6 @@
           .rdw-right .rdwr-bot .rdwrb-right .rr-video .owl-carousel-owl-theme .rrv-item .rrvi-top .img img {
             width: 100%; }
 
-button {
-  background: transparent;
-  border: 0; }
-
-input {
-  border: 0; }
-  input:focus {
-    background: #fff; }
-
 .res-detail-wrap {
   max-width: 1170px;
   margin: 15px auto; }
@@ -461,5 +452,14 @@ input {
 
 img {
   margin-bottom: 0 !important; }
+
+button {
+  background: transparent;
+  border: 0; }
+
+input {
+  border: 0; }
+  input:focus {
+    border: 0; }
 
 /*# sourceMappingURL=wrap.css.map */
