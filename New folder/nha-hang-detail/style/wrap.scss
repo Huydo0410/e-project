@@ -1,2 +1,20 @@
 @import "left";
 @import "right";
+@import "reset";
+.res-detail-wrap{
+  max-width: 1170px;
+  margin: 15px auto;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.btn-rs{
+  background: transparent;
+  border: none;
+}
+img{
+  margin-bottom: 0!important;
+}
