@@ -14,15 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="nhahang.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nhahang.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2285">
               <caret line="977" column="40" selection-start-line="977" selection-start-column="32" selection-end-line="977" selection-end-column="40" />
+=======
+      <file leaf-file-name="nhahang.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nhahang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="823" column="30" lean-forward="true" selection-start-line="823" selection-start-column="30" selection-end-line="823" selection-end-column="30" />
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+<<<<<<< HEAD
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -31,20 +40,36 @@
                 <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
+=======
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="wrap.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/wrap.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+=======
+      <file leaf-file-name="1_moinhat.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTML-feedy v3/1_moinhat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="content.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/content.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,6 +106,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -154,7 +181,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nha-hang-detail" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -185,13 +212,22 @@
       <option name="presentableId" value="Default" />
       <updated>1525707008307</updated>
       <workItem from="1525707011945" duration="1745000" />
+<<<<<<< HEAD
       <workItem from="1525741707041" duration="16267000" />
       <workItem from="1525760985559" duration="13400000" />
+=======
+      <workItem from="1525796619908" duration="105000" />
+      <workItem from="1525799293823" duration="4000" />
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="31412000" />
+=======
+    <option name="totallyTimeSpent" value="1854000" />
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -202,15 +238,23 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+=======
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -225,12 +269,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/nhahang.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="15725">
           <caret line="925" column="62" selection-start-line="925" selection-start-column="62" selection-end-line="925" selection-end-column="62" />
+=======
+        <state relative-caret-position="18502">
+          <caret line="841" selection-end-line="950" selection-end-column="7" />
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+<<<<<<< HEAD
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -239,10 +289,13 @@
             <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
+=======
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/style/wrap.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -268,17 +321,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/../HTML-feedy v3/1_moinhat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15400">
+          <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nhahang.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2771">
+=======
+        <state relative-caret-position="18502">
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
           <caret line="841" selection-start-line="841" selection-end-line="841" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+<<<<<<< HEAD
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -287,13 +356,19 @@
             <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#7;n#body#0;n#html#0;n#!!top" />
+=======
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HTML-feedy v3/1_moinhat.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="11900">
+=======
+        <state relative-caret-position="15400">
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
           <caret line="700" column="32" lean-forward="true" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
         </state>
       </provider>
@@ -353,10 +428,34 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/style/responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+=======
+    <entry file="file://$PROJECT_DIR$/../HTML-feedy v3/1_moinhat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nhahang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="823" column="30" lean-forward="true" selection-start-line="823" selection-start-column="30" selection-end-line="823" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+>>>>>>> 07f203d30c16674772f58c59bf8eb6b72f1601ac
         </state>
       </provider>
     </entry>
