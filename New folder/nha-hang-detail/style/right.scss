@@ -1,0 +1,491 @@
+.rdw-right {
+  max-width: 949px;
+  .rdwr-top {
+    overflow: hidden;
+    border-radius: 5px;
+
+    border: 1px solid #dce1e6;
+    .rdwrt-banner {
+      max-height: 445px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+
+    .rdwrt-wrap {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      .rw-left {
+        padding: 15px 25px;
+        margin: auto 0;
+        .rwl-like {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          span {
+            background: url(../dist/images/iconLike-26-no.png) center no-repeat;
+            float: left;
+            width: 27px;
+            height: 26px;
+            margin-right: 8px;
+            transition: all 0.35s ease;
+            &:hover{
+              background: url(../dist/images/iconLike-26.png) center no-repeat;
+            }
+          }
+        }
+
+        .rwl-rate {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          span {
+            background: url(../dist/images/r-icon-rank.png) center no-repeat;
+            filter: grayscale(1);
+            float: left;
+            width: 27px;
+            height: 26px;
+            margin-right: 8px;
+            transition: all 0.35s ease;
+            &:hover{
+              background: url(../dist/images/r-icon-rank.png) center no-repeat;
+              filter: grayscale(0);
+            }
+          }
+        }
+
+        .rwl-checkin {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          span {
+            background: url(../dist/images/r-icon-check-no.png) center no-repeat;
+            float: left;
+            width: 27px;
+            height: 26px;
+            margin-right: 8px;
+            transition: all 0.35s ease;
+            filter: grayscale(1);
+            &:hover{
+              background: url(../dist/images/r-icon-check.png) center no-repeat;
+              filter: grayscale(0);
+            }
+          }
+        }
+
+        .rwl-save {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          span {
+            background: url(../dist/images/iconLuuto.png) center no-repeat;
+            float: left;
+            width: 27px;
+            height: 26px;
+            margin-right: 8px;
+            transition: all 0.35s ease;
+            filter: grayscale(1);
+            &:hover{
+              filter: grayscale(0);
+            }
+          }
+        }
+
+        .rwl-share {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          span {
+            background: url(../dist/images/iconShare.png) center no-repeat;
+            float: left;
+            width: 26px;
+            height: 26px;
+            margin-right: 8px;
+            transition: all 0.35s ease;
+            filter: grayscale(1);
+            &:hover{
+              filter: grayscale(0);
+            }
+          }
+        }
+      }
+
+      .rw-right {
+        margin: auto 0;
+        padding: 0 20px;
+        .rwr-ib{
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          padding: 3px 20px;
+          border: 1px solid #dce1e6;
+          border-radius: 5px;
+          span {
+            background: url(../dist/images/iconBl-27.png) center no-repeat;
+            float: left;
+            width: 27px;
+            height: 26px;
+            margin-right: 8px;
+            transition: all 0.35s ease;
+            &:hover{
+              background: url(../dist/images/iconBl-26-hover.png) center no-repeat;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .rdwr-bot {
+    padding-top: 15px;
+    display: flex;
+    .rdwrb-left {
+      width: 60%;
+      .rl-wrap {
+
+        .rlw-post {
+          background: #fff;
+          border: 1px solid #e6e9ec;
+          border-radius:5px;
+          overflow: hidden;
+          margin-bottom: 20px;
+          .rlwp-top {
+            display: flex;
+            height: 50px;
+            .rlwpt-left{
+              width: 25%;
+              border-right: 1px solid #e6e9ec;
+              display: inline-block;
+              padding-left: 20px;
+              padding-top: 5px;
+              i{
+                font-size: 30px;
+                vertical-align: middle;
+              }
+            }
+            .rlwpt-right{
+              width: 75%;
+              border-bottom: 1px solid #e6e9ec;
+            }
+          }
+
+          .rlwp-mid {
+            padding: 10px 0 10px 20px;
+            .rlwpm-ava {
+              border-radius: 50%;
+            }
+
+            .rlwpm-ipt {
+              width: 82.5%;
+              line-height: 40px;
+              padding: 0 0 0 15px;
+            }
+
+            .rlwpm-btn {
+              vertical-align: middle;
+              span {
+                background: url("../dist/images/icon23.png") center no-repeat;
+                width: 25px;
+                height: 25px;
+                float: left;
+              }
+            }
+          }
+
+          .rlwp-bot {
+            padding: 5px 25px;
+            background: #3074c1;
+            color: #eeeeee;
+            border-radius: 5px;
+            float: right;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .rl-content {
+
+        .rlc-wrap {
+
+          .rlcw-item {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 5px;
+
+            .rlcwi-wrap {
+
+              .rw-top {
+                display: flex;
+                justify-content: space-between;
+                .rw-user {
+                  display: flex;
+                  a {
+                    padding-right: 10px;
+                    margin: auto;
+                    img {
+                      border-radius: 50%;
+                    }
+                  }
+
+                  .rwu-info {
+                    line-height: 16px;
+                    margin: auto;
+                    a {
+                      font-size: 16px;
+                    }
+
+                    br {
+
+                    }
+
+                    span {
+                      font-size: 12px;
+                    }
+                  }
+                }
+
+                .rw-setting {
+                  padding: 0;
+                  &:hover{
+                    cursor: pointer;
+                  }
+                  .ion-android-more-horizontal {
+                    font-size: 40px;
+                  }
+                }
+              }
+
+              .rw-content {
+                padding-bottom: 10px;
+              }
+
+              .rw-img {
+                .rwi-top {
+                  overflow: hidden;
+                  padding-bottom: 5px;
+                  max-width: 590px;
+                  img {
+                    width: 100%;
+                  }
+                }
+
+                .rwi-bot {
+                  display: flex;
+                  justify-content: space-between;
+                  padding-bottom: 25px;
+                  .rwib-left {
+                    overflow: hidden;
+                    max-height: 290px;
+                    max-width: 290px;
+                    width: 49.5%;
+                    img {
+                      width: 100%;
+                    }
+                  }
+
+                  .rwib-right {
+                    overflow: hidden;
+                    max-height: 290px;
+                    max-width: 290px;
+                    width: 49.5%;
+                    img {
+                      width: 100%;
+                    }
+                  }
+                }
+              }
+
+              .rw-interactive {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 40px;
+                .rwi-left {
+
+                  .rwil-like {
+                    font-size: 14px;
+                    color: #3f3f3f;
+                    line-height: 26px;
+                    span {
+                      background: url(../dist/images/iconLike-26-no.png) center no-repeat;
+                      float: left;
+                      width: 27px;
+                      height: 26px;
+                      margin-right: 8px;
+                      transition: all 0.35s ease;
+                      &:hover{
+                        background: url(../dist/images/iconLike-26.png) center no-repeat;
+                      }
+                    }
+                  }
+
+                  .rwil-cmt {
+                    font-size: 14px;
+                    color: #3f3f3f;
+                    line-height: 26px;
+                    span {
+                      background: url(../dist/images/iconBl-27.png) center no-repeat;
+                      float: left;
+                      width: 27px;
+                      height: 26px;
+                      margin-right: 8px;
+                      transition: all 0.35s ease;
+                    }
+                  }
+                }
+
+                .rwi-right {
+
+                  .rwir-save {
+                    font-size: 14px;
+                    color: #3f3f3f;
+                    line-height: 26px;
+                    span {
+                      background: url(../dist/images/iconLuuto.png) center no-repeat;
+                      float: left;
+                      width: 27px;
+                      height: 26px;
+                      margin-right: 8px;
+                      transition: all 0.35s ease;
+                      filter: grayscale(1);
+                    }
+                  }
+
+                  .rwir-share {
+                    font-size: 14px;
+                    color: #3f3f3f;
+                    line-height: 26px;
+                    span {
+                      background: url(../dist/images/iconShare.png) center no-repeat;
+                      float: left;
+                      width: 26px;
+                      height: 26px;
+                      margin-right: 8px;
+                      transition: all 0.35s ease;
+                      filter: grayscale(1);
+                    }
+                  }
+                }
+              }
+
+              .rw-post {
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                .rwp-ava {
+                  border-radius: 50%;
+                  max-width: 50px;
+                  max-height: 50px;
+                  margin-right: 10px;
+                }
+                .rwp-wrap{
+                  border: 1px solid #e1e1e1;
+                  width: 100%;
+                  border-radius: 5px;
+                  .rwpw-ipt {
+                    border-radius: 6px;
+                    padding-left: 25px;
+                    max-height: 35px;
+                    line-height: 35px;
+                    width: 85%;
+                  }
+                  .rwpw-btn {
+                    background: #3074c1;
+                    line-height: 10px;
+                    padding: 17px;
+                    border-bottom-right-radius: 5px;
+                    border-top-right-radius: 5px;
+                    color: #fff;
+                    font-weight: 600;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .rdwrb-right {
+      width: 40%;
+      .rr-video {
+
+        .rrv-head {
+          i{
+            vertical-align: middle;
+            font-size: 38px;
+            padding-right: 10px;
+          }
+          p{
+            display: inline;
+            font-size: 18px;
+            font-weight: 700;
+            color: #5e6c7b;
+          }
+        }
+
+        .owl-carousel-owl-theme {
+
+          .rrv-item {
+
+            .rrvi-top {
+              position: relative;
+              overflow: hidden;
+              width: 313px;
+              height: 190px;
+              .rrvit-wrap{
+                z-index: 99;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: block;
+                font-size: 13px;
+                padding: 30px 10px 8px 10px;
+                width: 100%;
+                font-weight: normal;
+                color: white;
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+                .views {
+                  padding-right: 25px;
+                  img {
+                    margin-top: -1px;
+                    margin-right: 3px;
+                    line-height: 15px;
+                  }
+                }
+
+                .time {
+
+                  img {
+                    margin-top: -1px;
+                    margin-right: 3px;
+                    line-height: 15px;
+                  }
+                }
+              }
+              .img{
+                display: block;
+
+                img{
+                  width: 100%;
+                }
+              }
+            }
+
+            .rrvi-bot {
+
+              a {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
